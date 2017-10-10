@@ -1,0 +1,9 @@
+def add(n):
+    a,b = 5,3
+    while a < n:
+        print(a, end=' ')
+        a,b= b, a*b
+        print()
+       
+
+add(1000)
