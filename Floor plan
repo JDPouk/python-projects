@@ -1,0 +1,6 @@
+a = int(input("Enter the width of your floor in metres: "))
+b = int(input("Enter the height of your floor in metres: "))
+c = int(input("Enter the cost of your chosen tile per square metre: "))
+floorLength = a * b
+total = floorLength * c
+print('$',total)
