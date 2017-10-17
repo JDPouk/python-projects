@@ -1,6 +1,7 @@
-a = int(input("Enter the width of your floor in metres: "))
-b = int(input("Enter the height of your floor in metres: "))
-c = int(input("Enter the cost of your chosen tile per square metre: "))
+a = float(input("Enter the width of your floor in metres: "))
+b = float(input("Enter the height of your floor in metres: "))
+c = float(input("Enter the cost of your chosen tile per square metre: "))
 floorLength = a * b
 total = floorLength * c
+format(total, '.2f')
 print('$',total)
